@@ -1,0 +1,109 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(255, 228, 225);
+}
+
+.central{
+    display: flex;
+    flex-wrap: wrap;
+}
+.principal{
+    background-color: pink;
+    padding: 4px;
+    font-size: 1.4rem;
+    height: 100%;    
+}
+
+.right{
+    display: flex;
+    justify-content: right;
+}
+
+.menu{
+    position: absolute;
+    width: -40px;
+    height: -30px;
+    top: 45px;
+    margin-right: 50px;
+}
+
+.abre{
+    margin-left: 80px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.sub-menu{
+    width: 200px;
+    display: none;
+    position: absolute;
+    background-color: rgb(184, 115, 126);
+    margin-top: 10px;
+}
+.menu:hover .sub-menu{
+    display: block;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+    margin: 7px;
+}
+
+.link:hover{
+    background-color: #a29ed4;
+}
+
+header img{
+    height:100px;
+    width: 100px;
+    object-fit: fill;
+    border-radius: 30px;
+    margin-top: 5px;
+}
+
+.position{
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 430px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 3px solid rgb(120, 157, 224);
+    padding: 10px;
+    height: 100%;
+}
+
+
+.predio{
+    display: flex;
+    width: 850px;
+    height: 500px;
+    object-fit: fill;
+}
+
+.image{
+    display: flex;
+    margin-left: 400px;
+    border: 2px solid rgb(120, 157, 224);
+    border-radius: 30px;
+}
+
+h1{
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.p{
+    color: rgb(0, 0, 0);
+}
